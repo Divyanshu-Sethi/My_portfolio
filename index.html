@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Divyanshu Sethi<span></span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hey! I am</h1>
+          <span class="auto">Divyanshu Sethi</span>
+          <p>
+            A motivated, adaptable, and responsible Under graduate looking for
+            an entry-level position in a software company that requires strong
+            organizational skills. My goal is to apply my knowledge of computer
+            science to challenging work where I can learn & utilize my knowledge
+            and potential effects to the growth of my career and organization
+            with commitment towards work.
+          </p>
+          <button
+            onclick="window.location.href='https://divyanshu2001.ds@gmail.com/';"
+          >
+            Hire Me
+          </button>
+        </div>
+        <div class="main-two">
+          <img src="./Images/portfoldio.jpeg" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          I have invested these last 3 years in developing my skills which
+          includes programming in Java, C++, Database SQL, JS & Git etc. So these all
+          are my technical skills to build several projects
+        </p>
+        <button
+          onclick="window.location.href='https://drive.google.com/file/d/1WRi1c7WWpoG1MVn0MRASuJDQmVVeTJRF/view?usp=sharing';"
+        >
+          Download CV
+        </button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>GitHub Crawler</h3>
+          <p>
+            Need a simple systematic way of getting data from GitHub and
+            the only possible way I could think of is scrapping
+          </p>
+          <button
+            onclick="window.location.href='https://github.com/Divyanshu-Sethi/GitHub_Scrapper';"
+          >
+            Live Preview
+          </button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>File System Organizer</h3>
+          <p>
+            Too Much Files to Organize in certain folder ? This Project allows you to
+            systematically arrange the files acc. to their extension. 
+          </p>
+          <button
+            onclick="window.location.href='https://github.com/Divyanshu-Sethi/Systematic-Sorting-File-Organizer';"
+          >
+            Live Preview
+          </button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>St. Javian Bank</h3>
+          <p>
+            Banking hassle ! We can use this software for managing the backend working of 
+            Banking System.
+          </p>
+          <button
+            onclick="window.location.href='https://github.com/Divyanshu-Sethi/BANK_APPLICATION';"
+          >
+            Live Preview
+          </button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Divyanshu S.</span>
+          <p>
+            My name is Divyanshu Sethi and I'm from New Delhi . About my
+            qualifications, I'm pursuing a B Tech in Computer Science &
+            Engineering from MSIT (Maharaja Surajmal Institute of Technology,
+            Delhi). I secure 8.00 CGPA in 10th Standard in 2017 and 74% in 12th
+            standard in 2019 and currently in engineering my aggregate score is
+            81% around.<br />
+            My hobbies are - travelling, listening music, driving, trekking &
+            coding ofcourse. I'm aiming to get a job in a reputed company and my
+            long-term goal is to get a responsible position in a company with
+            smart work and hard work.
+          </p>
+          <div class="btns">
+            <button
+              onclick="window.location.href='https://drive.google.com/file/d/1WRi1c7WWpoG1MVn0MRASuJDQmVVeTJRF/view?usp=sharing';"
+            >
+              Download CV
+            </button>
+            <button
+              onclick="window.location.href='https://divyanshu2001.ds@gmail.com/';"
+            >
+              Contact me
+            </button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="Images\hmm.jpg" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2022 Div.</div>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/divyanshu-sethi-ba9149246/"
+            target="blank"
+            ><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"
+          /></a>
+
+          <a href="https://fb.com/divyanshu sethi" target="blank"
+            ><img
+              src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
+          /></a>
+
+          <a href="https://instagram.com/divyanshu.sethi_" target="blank"
+            ><img
+              src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+          /></a>
+
+          <a href="https://github.com/Divyanshu-Sethi" target="blank">
+            <img src="https://img.icons8.com/fluent/50/000000/github"
+          /></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Divyanshu Sethi", "Web Developer", "Java Programmer"],
+        typeSpeed: 100,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
